@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+/* header */
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header h2 {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/* cabecalho */
+main {
+    margin: 10px 0px 0px 15px;
+}
+
+div {
+    margin-top: 8px;
+}
+
+div input {
+    padding: 2px 5px;
+}
+
+div button {
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+ol {
+    margin: 15px 0px 0px -10px;
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+/* rodape */
+footer {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 40vw;
+}
+
+footer a {
+    color: #000000;
+}
+
+
+
+
+
+
+.dark {
+    background-color: #0000007e;
+}
